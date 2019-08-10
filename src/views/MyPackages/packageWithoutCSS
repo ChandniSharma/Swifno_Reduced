@@ -1,0 +1,96 @@
+New Request Summary:  11.6
+
+
+   return (
+      <View>
+      <View>
+           <Text>Pickup Location</Text>
+           <Text>State:</Text> 
+           <Text>Maiduguri - Central, Borno </Text>
+           <Text>Address: Bolon, Maiduguri, Nigeria </Text>
+       </View>  
+       
+       <View>
+           <Text>Dropoff Location</Text>
+           <Text>State:</Text> 
+           <Text>Mayo-Belwo, Adamawa </Text>
+           <Text>Address:</Text>
+           <Text> Nigerian Prison Service </Text>
+       </View>
+       
+        <View>
+           <Text>Recepient Details</Text>
+           <Text>Name:</Text> 
+           <Text>Mr Ugochukwu Nwosu (Computer Science) </Text>
+           <Text>Email:</Text>
+           <Text>xyz@gmaikcom</Text>
+            <Text>Phone:</Text>
+           <Text>+9191987654321 </Text>
+       </View>
+       
+       
+        <View>
+           <Text>Package Details</Text>
+           <Text>Group:</Text> 
+           <Text>Category: </Text>
+           <Text>Containers - Bags/Boxes</Text>
+           <Text> Package Name: </Text>
+           <Text>4 Empty Boxes (460 x 460 x 410)</Text>
+           <Text>Speed:</Text> 
+           <Text>Same Day Si.: Medium</Text>
+           <Text>Pickup Period: </Text>
+           <Text>08:00am - 06:00am</Text>
+           <Text>Item Value: </Text>
+           <Text>ISO</Text>
+       </View>
+       
+        <View>
+           <Text>Additional Details</Text>
+           <Text>Enter Additional Information e.g. number, weight, or special pickup/delivery considerations 
+</Text> 
+       </View>
+       
+       <View>
+           <Text>Estimated Quote:</Text>
+           <Text>None</Text> 
+       </View>
+       
+       <View>
+           <Text>Speed</Text>
+           <Text>None</Text> 
+       </View>
+         
+      </View>
+    );
+
+9:23 AM
+My Package: 15
+
+
+ return (
+    <View>
+      {[{key}].map((value, index) => (
+      <View>
+        <View>
+             <Text>My Package</Text>
+             <Text>From:</Text> 
+             <Text>Location1</Text>
+             <Text>To</Text>
+             <Text>Location2</Text>
+             <Text>Schdeuled Date:</Text> 
+             <Text>23 Nov 2006</Text>
+             <Text>Status:</Text> 
+             <Text>Awarded (4434.00)</Text>
+             <Text>Operator:</Text> 
+             <Text>Operator 1</Text>
+        </View>
+        <View>
+          <Text>view Details</Text>
+          <Text>Track Packagg</Text>
+          <Text>Give Feedback</Text> 
+        </View>
+      </View>
+      ))}
+    </View>  
+    );
+Same = 15, 16
